@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: gray;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+img {
+    margin-bottom: 17px;
+    border-radius: 20px;
+    transition: transform 0.4s ease;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
