@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    background: gray;
+    background-image: linear-gradient(#778391, #2B313E);
 
 }
 
+/* Cards */
 .cards {
     display: flex;
     flex-direction: column;
@@ -27,4 +30,41 @@ img {
     }
 }
 
-/* 330 440 */
+/* Acabou Cards */
+
+/* Quem sou */
+.quem-sou {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16%;
+    padding-right: 16%;
+    gap: 10%;
+    margin-top: 65px;
+}
+
+.quem-sou img {
+    transform: none;
+    border-radius: 10px;
+}
+
+.caixa-txt {
+    text-align: center;
+    color: #e5e5e5;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    width: 580px;
+
+    h2 {
+        font-size: 17px;
+    }
+}
+
+
+
+/* Acabou Quem sou */
+
+
+/* COLOCAR SOMBRA NOS CARDS E NA FOTO */
