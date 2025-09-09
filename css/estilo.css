@@ -17,11 +17,8 @@ body {
 /* Cards */
 .cards {
     display: flex;
-    /* width: 100%; */
-    background-color: yellow;
+    /* background-color: yellow; */
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
     margin-top: 50px;
     margin-bottom: 30px;
     margin-left: 0px;
@@ -50,16 +47,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 16%;
-    padding-right: 16%;
+    /* background: purple; */
     gap: 10%;
     margin-top: 65px;
     max-width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    /* background: purple; */
 
 }
 
 .quem-sou img {
-    /* transform: none; */
     border-radius: 10px;
     box-shadow: 5px 15px 15px 15px rgba(0, 0, 0, 0.3);
     max-width: 100%;
@@ -72,10 +70,18 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: italic;
-    width: 580px;
+    width: 630px;
+    max-width: 100%;
+    /* background: cadetblue; */
 
     h2 {
         font-size: 17px;
+        margin-bottom: 12px;
+
+    }
+
+    p {
+        margin-bottom: 12px;
     }
 }
 
