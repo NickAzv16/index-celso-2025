@@ -13,6 +13,10 @@
     .cards {
         margin-bottom: 0;
     }
+
+    .quem-sou {
+        margin-top: 35px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
