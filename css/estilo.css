@@ -20,7 +20,7 @@ body {
     /* background-color: yellow; */
     flex-direction: column;
     margin-top: 50px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -49,12 +49,10 @@ body {
     align-items: center;
     /* background: purple; */
     gap: 10%;
-    margin-top: 65px;
+    margin-top: 60px;
     max-width: 100%;
     padding-left: 80px;
     padding-right: 80px;
-    /* background: purple; */
-
 }
 
 .quem-sou img {
